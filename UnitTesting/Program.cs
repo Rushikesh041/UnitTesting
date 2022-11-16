@@ -1,10 +1,18 @@
 ﻿namespace UnitTesting
 {
-    internal class Program
+    public class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            UserInput Input = new UserInput();
+            Input.vendingMachineProblem(); 
+            Input.dayOfWeekProblem(); 
+            Input.temperatureConversionProblem(); 
+            Input.MonthlyPaymentProblem(); 
+            Input.SquareRootProblem(); 
+            Input.DecimalToBinaryConversionProblem(); 
+            Input.IntegerToBinaryConversionProblem(); 
+
         }
     }
 }
